@@ -1,0 +1,31 @@
+{
+  "kit": "Synergy Field Kit",
+  "updated": "2026-06-11",
+  "tools": [
+    {
+      "id": "sitewalk",
+      "name": "SiteWalk",
+      "desc": "AV site surveys — rooms, flags, build sheet, exports",
+      "url": "https://ryan-synergy.github.io/sitewalk/"
+    },
+    {
+      "id": "blueprinted",
+      "name": "Blueprinted",
+      "desc": "Savant config → retrofit takeoff",
+      "url": "https://ryan-synergy.github.io/blueprinted/"
+    },
+    {
+      "id": "dmf",
+      "name": "DMF Configurator",
+      "desc": "DMF Artafex take-offs — verified SKUs",
+      "url": "https://ryan-synergy.github.io/dmf-artafex-configurator/"
+    },
+    {
+      "id": "tvcalc",
+      "name": "TV Wall Calculator",
+      "desc": "Mounting layout calculator",
+      "url": "",
+      "status": "parked"
+    }
+  ]
+}

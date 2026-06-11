@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Field Kit">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#F6F4ED" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141512" media="(prefers-color-scheme: dark)">
+<title>Synergy Field Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F4ED; --surface:#FFFFFF; --ink:#191713; --muted:#76715F;
+    --line:#DCD8C9; --line2:#B9B5A4; --orange:#E8500A;
+    --sans:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+    --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper:#141512; --surface:#1B1C1A; --ink:#E8E6DE; --muted:#8E908A;
+      --line:#2B2D29; --line2:#45473F; --orange:#FFB000;
+    }
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0; background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px;}
+  .wrap{max-width:560px; margin:0 auto; padding:calc(26px + env(safe-area-inset-top)) 18px 60px;}
+  .rule{border-top:1px solid var(--ink);}
+  .mast{font-family:var(--mono); font-size:12px; font-weight:500; letter-spacing:.18em; padding:0 0 10px;}
+  h1{font-size:24px; font-weight:500; margin:26px 0 4px;}
+  .sub{color:var(--muted); font-size:14px; margin-bottom:26px;}
+  a.tool{display:flex; align-items:center; gap:14px; background:var(--surface);
+    border:1px solid var(--line); border-radius:3px; padding:17px 16px; margin-bottom:10px;
+    text-decoration:none; color:var(--ink);}
+  a.tool:active{border-color:var(--ink);}
+  .tool .name{font-weight:500; font-size:16.5px;}
+  .tool .desc{font-size:13px; color:var(--muted); margin-top:3px; line-height:1.4;}
+  .tool .arrow{font-family:var(--mono); font-size:15px; color:var(--orange); margin-left:auto;}
+  .tool.parked{opacity:.55; pointer-events:none;}
+  .tool.parked .arrow{display:none;}
+  .tag{font-family:var(--mono); font-size:10px; letter-spacing:.12em; color:var(--muted);
+    border:1px solid var(--line2); border-radius:2px; padding:4px 7px; margin-left:auto; white-space:nowrap;}
+  .grow{flex:1; min-width:0;}
+  .foot{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; color:var(--muted);
+    text-align:center; margin-top:44px; line-height:2;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="mast">SYNERGY FIELD KIT</div>
+  <div class="rule"></div>
+  <h1>Field tools</h1>
+  <div class="sub">Walk it, capture it, quote it.</div>
+
+  <a class="tool" href="https://ryan-synergy.github.io/sitewalk/">
+    <div class="grow"><div class="name">SiteWalk</div>
+    <div class="desc">AV site surveys — rooms, flags, build sheet, exports</div></div>
+    <div class="arrow">→</div></a>
+
+  <a class="tool" href="https://ryan-synergy.github.io/blueprinted/">
+    <div class="grow"><div class="name">Blueprinted</div>
+    <div class="desc">Savant config → retrofit takeoff</div></div>
+    <div class="arrow">→</div></a>
+
+  <a class="tool" href="https://ryan-synergy.github.io/dmf-artafex-configurator/">
+    <div class="grow"><div class="name">DMF Configurator</div>
+    <div class="desc">DMF Artafex take-offs — verified SKUs</div></div>
+    <div class="arrow">→</div></a>
+
+  <a class="tool parked" href="#">
+    <div class="grow"><div class="name">TV Wall Calculator</div>
+    <div class="desc">Mounting layout calculator</div></div>
+    <div class="tag">IN THE SHOP</div></a>
+
+  <div class="foot">SYNERGY AV · INTERNAL TOOLS<br>ADD TO HOME SCREEN FOR ONE-TAP ACCESS</div>
+</div>
+</body>
+</html>
