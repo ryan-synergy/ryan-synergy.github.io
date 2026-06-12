@@ -23,9 +23,8 @@
     {
       "id": "tvcalc",
       "name": "TV Wall Calculator",
-      "desc": "Mounting layout calculator",
-      "url": "",
-      "status": "parked"
+      "desc": "Mounting layout calculator — live wall diagram",
+      "url": "https://ryan-synergy.github.io/tv-wall-calculator/"
     }
   ]
 }
