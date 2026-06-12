@@ -21,10 +21,10 @@
       "url": "https://ryan-synergy.github.io/dmf-artafex-configurator/"
     },
     {
-      "id": "tvcalc",
-      "name": "TV Wall Planner",
-      "desc": "Install specs \u2014 VESA, boxes, heights, DXF export",
-      "url": "https://ryan-synergy.github.io/tv-wall-planner/"
+      "id": "tellavision",
+      "name": "TellaVision",
+      "desc": "TV wall install specs \u2014 VESA, boxes, tape-out, DXF",
+      "url": "https://ryan-synergy.github.io/tellavision/"
     }
   ]
 }
